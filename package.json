@@ -1,0 +1,31 @@
+{
+  "name": "json-forger",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "import": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format esm,cjs --out-dir dist"
+  },
+  "author": "Elie Abdallah",
+  "license": "MIT",
+  "description": "Library to generate a JSON file generator based on a custom json schema",
+  "keywords": [
+    "json",
+    "json-generator",
+    "json-schema"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "randexp": "^0.5.3"
+  }
+}
