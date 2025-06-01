@@ -1,6 +1,6 @@
 {
   "name": "json-forger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
@@ -15,6 +15,14 @@
   "author": "Elie Abdallah",
   "license": "MIT",
   "description": "Library to generate a JSON file generator based on a custom json schema",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Elie-A/JSON-Forger"
+  },
+  "bugs": {
+    "url": "https://github.com/Elie-A/JSON-Forger/issues"
+  },
+  "homepage": "https://github.com/Elie-A/JSON-Forger#readme",
   "keywords": [
     "json",
     "json-generator",

@@ -1,4 +1,4 @@
-# JSON Forge
+# JSON Forger
 
 This script is a JSON file generator based on a custom json schema
 
